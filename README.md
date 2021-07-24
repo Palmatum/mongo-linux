@@ -24,9 +24,3 @@ As needed, you can stop the mongod process by issuing the following command:
 You can restart the mongod process by issuing the following command:
 ```sudo systemctl restart mongod```
 You can follow the state of the process for errors or important messages by watching the output in the `/var/log/mongodb/mongod.log` file.
-
-## Restart MongoDB
-Start a mongosh session on the same host machine as the mongod. You can run mongosh without any command-line options to connect to a mongod that is running on your localhost with default port 27017:
-```mongo```
-
-
